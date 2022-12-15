@@ -22,7 +22,7 @@ timer.style.display = "flex";
 const labels = document.querySelectorAll('.label');
 const values = document.querySelectorAll('.value');
 
-for (value of values) {
+for (const value of values) {
   
   value.style.color = "pink";
   value.style.fontWeight = "700";
@@ -40,7 +40,7 @@ for (value of values) {
 
 const fields = document.querySelectorAll('.field');
 
-for (field of fields) {
+for (const field of fields) {
   
   field.style.display = "block";
   field.style.textAlign = "center";
